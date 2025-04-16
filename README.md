@@ -12,11 +12,11 @@ This is a responsive and interactive website created for our Coding Club using *
 - Clean and modern UI  
 - Responsive design for all devices  
 - Interactive elements using JavaScript  
-- Sections for events, team, contact, and more  
+- Sections for events, team, contact,resources,curriculum and more  
 
 ## Tech Stack
-- **HTML5** – Structure  
-- **CSS3** – Styling  
+- **HTML** – Structure  
+- **CSS** – Styling  
 - **JavaScript** – Interactivity  
 
 ## How to Use
