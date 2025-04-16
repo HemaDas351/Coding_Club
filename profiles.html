@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./profiles_style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Profiles</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="branding">
+          <img src="logo.png" alt="Logo">
+          <span class="club-name">Coding Club ODP</span>
+        </div>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">About</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="curriculum.html">Curriculum</a></li>
+          <li><a href="sessions.html">Sessions</a></li>
+          <li><a href="profiles.html">Profiles</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+
+<div style="--total: 4" class="circle-wrapper">
+  <div class="center-element">The Team</div>
+
+  <input type="radio" name="radio-avatar" id="radio-avatar-1">
+  <label id="avatar-1" for="radio-avatar-1" class="avatar" style="--i:1">
+    <img src="https://i.pravatar.cc/300?img=12" alt="pushkar vats">
+    <svg viewBox="0 0 300 300">
+      <text fill="currentColor">
+        <textPath xlink:href="#circlePath">Pushkar Vats – General Secretary</textPath>
+      </text>
+    </svg>
+  </label>
+
+
+
+  <input type="radio" name="radio-avatar" id="radio-avatar-4">
+  <label id="avatar-2" for="radio-avatar-4" class="avatar" style="--i:2">
+    <img src="https://i.pravatar.cc/300?img=48" alt="Sumit rana">
+    <svg viewBox="0 0 300 300">
+      <text fill="currentColor">
+        <textPath xlink:href="#circlePath">Sumit Rana – Coordinator</textPath>
+      </text>
+    </svg>
+  </label>
+
+
+  <input type="radio" name="radio-avatar" id="radio-avatar-7">
+  <label id="avatar-3" for="radio-avatar-7" class="avatar" style="--i:3">
+    <img src="https://i.pravatar.cc/300?img=44" alt="devaparna tribedi">
+    <svg viewBox="0 0 300 300">
+      <text fill="currentColor">
+        <textPath xlink:href="#circlePath">Devarpana Tribedi – Coordinator</textPath>
+      </text>
+    </svg>
+  </label>
+
+
+
+  <input type="radio" name="radio-avatar" id="radio-avatar-9">
+  <label id="avatar-4" for="radio-avatar-9" class="avatar" style="--i:4">
+    <img src="https://i.pravatar.cc/300?img=14" alt="anish raj">
+    <svg viewBox="0 0 300 300">
+      <text fill="currentColor">
+        <textPath xlink:href="#circlePath">Anish Raj – Coordinator</textPath>
+      </text>
+    </svg>
+  </label>
+</div>
+
+<!-- SVG template for dynamic text -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300" width="0" height="0">
+  <defs>
+    <path id="circlePath" d="M 150, 150 m -100, 0 a 100,100 0 0,1 200,0 a 100,100 0 0,1 -200,0" />
+  </defs>
+</svg>
+
+<script src="script.js"></script>
+<footer class="footer">
+    <p>© 2025 Coding Club ODP | IIT Guwahati</p>
+  
+    <div class="contact">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>Pushkar Vats – General Secretary (
+          <a href="mailto:v.pushkar@op.iitg.ac.in">v.pushkar@op.iitg.ac.in</a>
+        </li>
+        <li>Sumit Rana – Coordinator (
+          <a href="mailto:sumit.rana@op.iitg.ac.in">sumit.rana@op.iitg.ac.in</a>)
+        </li>
+        <li>Devarpana Tribedi – Coordinator (
+          <a href="mailto:t.devarpana@op.iitg.ac.in">t.devarpana@op.iitg.ac.in</a>)
+        </li>
+        <li>Anish Raj – Coordinator (
+          <a href="mailto:r.anish@op.iitg.ac.in">r.anish@op.iitg.ac.in</a>)
+        </li>
+      </ul>
+    </div>
+  
+    <div class="social-icons">
+      <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </div>
+  </footer>
+  
+  
+</body>
+</html>
