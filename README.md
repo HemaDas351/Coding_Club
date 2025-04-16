@@ -25,8 +25,4 @@ This is a responsive and interactive website created for our Coding Club using *
 3. Explore the site  
 
 ## Credits  
-Developed by [Your Name] for the Coding Club ✨  
-
----
-
-Want to add deployment info or GitHub Pages link too?
+Developed by Hema Das for the Coding Club ✨  
